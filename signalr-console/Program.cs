@@ -6,8 +6,7 @@ namespace signalr_console {
 		static void Main(string[] args) {
 
 			var conn = new Connection("http://localhost:54841/-/echo", "access_token=" + Guid.NewGuid());
-		//	var longPolling = new Microsoft.AspNet.SignalR.Client.Transports.LongPollingTransport();
-			conn.Start( ).ContinueWith(_ => {
+			conn.Start().ContinueWith(_ => {
 				if (_.Exception != null && _.Exception.InnerExceptions.Count > 0) {
 					foreach (var x in _.Exception.InnerExceptions) {
 						Console.WriteLine(x);

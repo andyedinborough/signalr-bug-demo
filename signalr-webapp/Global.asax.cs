@@ -15,6 +15,9 @@ namespace signalr_webapp {
 		}
 
 		void MvcApplication_AuthenticateRequest(object sender, System.EventArgs e) {
+			var access_token = Request.QueryString["access_token"];
+			if (access_token == null) return;
+
 			var user = new Principal {
 				Name = "Bob", IsAuthenticated = true, Roles = new[] { "User" }
 			};
