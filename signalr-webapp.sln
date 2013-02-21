@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "signalr-webapp", "signalr-webapp\signalr-webapp.csproj", "{ECA6BFC9-5B8F-425B-BFD5-1B51A302077F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "signalr-console", "signalr-console\signalr-console.csproj", "{9CE13A13-3B76-4DE2-A538-7EF9F0D4EA97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA6BFC9-5B8F-425B-BFD5-1B51A302077F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA6BFC9-5B8F-425B-BFD5-1B51A302077F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA6BFC9-5B8F-425B-BFD5-1B51A302077F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA6BFC9-5B8F-425B-BFD5-1B51A302077F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE13A13-3B76-4DE2-A538-7EF9F0D4EA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE13A13-3B76-4DE2-A538-7EF9F0D4EA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE13A13-3B76-4DE2-A538-7EF9F0D4EA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE13A13-3B76-4DE2-A538-7EF9F0D4EA97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
